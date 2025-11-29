@@ -1,12 +1,13 @@
-# pull latest teacher code
-git pull origin main        # or sync from upstream if they forked
+# copy latest code
+git pull origin main        
 
-# create/update their assignment branch
-git checkout -b <their-name>-assignment2   # or switch to it if already exists
+# create/update your assignment 
+git checkout -b <their-name>-assignment2   
 
 # edit
-git add .
-git commit -m "Update assignment 2"
+git add . 
+git commit -m "Update assignment 2" 
+# this saves everything locally 
 git push origin <their-name>-assignment2
+# upload to server.
 
-# then open / update PR on GitHub
